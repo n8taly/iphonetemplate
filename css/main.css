@@ -95,3 +95,31 @@ body{
 	line-height: 1.6;
 	padding-bottom: 90px;
 }
+.buttons{
+	display: flex;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 50px;
+	border-radius: 3px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 20px;
+}
+.btn-empty{
+	border: 1px solid #fff;
+}
+.btn-fill{
+	background: linear-gradient(to right, #36d1dc 0%, #ffbe00 50%, #5b86e5 100%);
+	background-size: 200%;
+	transition: all ease-in .4s;
+	background-position: 0 center;
+}
+.btn-fill:hover{
+	background-position: right center;
+}
