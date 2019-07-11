@@ -69,7 +69,13 @@
     .btn-mobile:focus + ul, .btn-mobile:hover + ul{
         display: block;
     }
-    
+    .buttons{
+        justify-content: space-between;
+    }
+    .buttons .btn{
+        width: calc( 50% - 10px);
+        margin: 0;
+    } 
     .menu >ul{
         display: none;
         margin-right: 10px;
