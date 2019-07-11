@@ -97,7 +97,12 @@ body{
 }
 .buttons{
 	display: flex;
+	justify-content: space-between;
 }
+.buttons .btn{
+	width: calc( 50% - 10px);
+	margin: 0;
+} 
 .btn{
 	display: flex;
 	justify-content: center;
@@ -122,4 +127,7 @@ body{
 }
 .btn-fill:hover{
 	background-position: right center;
+}
+.btn-mobile{
+	display: none;
 }
