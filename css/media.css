@@ -54,7 +54,30 @@
     }
     .header .logo{
         font-size: 18px;
+        line-height: 38px;
         
+    }
+    .btn-mobile{
+        display: block;
+        font-size: 36px;
+        color: #fff;
+        border: none;
+        background: none;
+        outline: none;
+        margin-left: auto;
+    }
+    .btn-mobile:focus + ul{
+        display: block;
+    }
+    .menu >ul{
+        display: none;
+        margin-right: 10px;
+    }
+    .menu ul li{
+        display: block;
+        margin: 0;
+        padding: 15px 0;
+        text-align: right;
     }
 }
 
