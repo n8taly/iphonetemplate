@@ -66,9 +66,10 @@
         outline: none;
         margin-left: auto;
     }
-    .btn-mobile:focus + ul{
+    .btn-mobile:focus + ul, .btn-mobile:hover + ul{
         display: block;
     }
+    
     .menu >ul{
         display: none;
         margin-right: 10px;
